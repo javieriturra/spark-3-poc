@@ -7,4 +7,4 @@
 /derby.log
 /spark-warehouse/
 
-/data/2-count/
+/data/2-events-agg/
