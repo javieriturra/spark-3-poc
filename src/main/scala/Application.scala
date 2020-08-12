@@ -13,7 +13,7 @@ object Application extends App {
     spark.read
       .option("header", "true")
       .schema(Schemas.schema)
-      .csv(s"${Paths.events}/")
+      .csv(s"${Paths.events}")
       .write
       .format("csv")
       .option("header", "true")
